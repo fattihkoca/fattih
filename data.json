@@ -1,0 +1,31 @@
+{
+  "image": "https://www.gravatar.com/avatar/b622337c5e7dae53b97a36bf3c697063?s=200",
+  "name": "Fatih Koca",
+  "knows": "Husband and Father of Two",
+  "title": "Full-stack Developer and UI/UX Designer",
+  "career": [
+    {
+      "title": "Co-Founder of",
+      "company": "Classest",
+      "url": "https://classest.com"
+    },
+    {
+      "title": "Owner of",
+      "company": "jQueryTE",
+      "url": "http://jqueryte.com"
+    }
+  ],
+  "social": {
+    "twitter": "https://twitter.com/fattihkoca",
+    "instagram": "https://instagram.com/fattihkoca",
+    "linkedin": "https://linkedin.com/in/fattihkoca",
+    "github": "https://github.com/fattihkoca",
+    "dribbble": "https://dribbble.com/fattihkoca",
+    "medium": "https://medium.com/fattihkoca",
+    "soundcloud": "https://soundcloud.com/fattihkoca"
+  },
+  "posts": {
+    "title": "Fatih Koca's Posts",
+    "provider": "Powered by Curator.io"
+  }
+}
