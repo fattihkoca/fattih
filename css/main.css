@@ -128,6 +128,10 @@
     background-position: -225px 0;
 }
 
+#social i.social-clubhouse:before {
+    background-position: -250px 0;
+}
+
 #open-posts-handle {
     padding: .66em 1.3em;
     border: var(--color) 1px solid;

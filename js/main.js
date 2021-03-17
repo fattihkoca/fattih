@@ -33,7 +33,7 @@ let url = "data.json",
         let item = "<li><a data-cph><i></i></a></li>",
             items = "";
 
-        for (let i = 1; i <= 7; i++) {
+        for (let i = 1; i <= 8; i++) {
             items += item;
         }
 
