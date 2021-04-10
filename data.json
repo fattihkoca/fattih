@@ -1,18 +1,13 @@
 {
   "image": "https://gravatar.com/avatar/b622337c5e7dae53b97a36bf3c697063?s=300",
   "name": "Fatih Koca",
-  "knows": "Husband and Father of Two",
-  "title": "Full-stack Developer and UI/UX Designer",
+  "knows": "🏷 Entrepreneur, husband, father of two",
+  "title": "👨‍💻 EdTech, Web dev, Mobile app, IoT, DevOps, UI/UX",
   "career": [
     {
       "title": "Co-Founder of",
       "company": "Classest",
       "url": "https://classest.com"
-    },
-    {
-      "title": "Owner of",
-      "company": "jQueryTE",
-      "url": "http://jqueryte.com"
     }
   ],
   "social": {
