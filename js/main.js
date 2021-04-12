@@ -106,15 +106,15 @@ let url = "data.json",
         {
             var curatorFeedField = window.document.querySelector('.crt-feed');
 
-            if(!curatorFeedField)
+            if(curatorFeedField) {
+                curatorFeedField.setAttribute('style', 'display:none');
+
+                setTimeout(function() {
+                    curatorFeedField.setAttribute('style', 'display:block');
+                }.bind(curatorFeedField), 200);
+
                 return;
-
-            curatorFeedField.setAttribute('style', 'display:none');
-
-            setTimeout(function() {
-                curatorFeedField.setAttribute('style', 'display:block');
-            }.bind(curatorFeedField), 200);
-            return;
+            }
         }
 
         curatorLoaded = true;
