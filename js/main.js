@@ -103,7 +103,19 @@ let url = "data.json",
     },
     loadCurator = function () {
         if (curatorLoaded)
+        {
+            var curatorFeedField = window.document.querySelector('.crt-feed');
+
+            if(!curatorFeedField)
+                return;
+
+            curatorFeedField.setAttribute('style', 'display:none');
+
+            setTimeout(function() {
+                curatorFeedField.setAttribute('style', 'display:block');
+            }.bind(curatorFeedField), 100);
             return;
+        }
 
         curatorLoaded = true;
         (function () {
