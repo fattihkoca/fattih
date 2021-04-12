@@ -113,7 +113,7 @@ let url = "data.json",
 
             setTimeout(function() {
                 curatorFeedField.setAttribute('style', 'display:block');
-            }.bind(curatorFeedField), 100);
+            }.bind(curatorFeedField), 200);
             return;
         }
 
