@@ -36,6 +36,10 @@ body {
     }
 }
 
+body {
+    -webkit-overflow-scrolling:touch;
+}
+
 body * {
     margin: 0;
     padding: 0;
@@ -47,7 +51,6 @@ body * {
     line-height: inherit;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
-    -webkit-overflow-scrolling:touch;
     list-style: none;
 }
 
