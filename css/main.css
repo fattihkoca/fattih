@@ -5,37 +5,37 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
-    overflow: auto;
+    min-height: 100vh;
 }
 
 #intro {
     text-align: center;
 }
 
-#profile {
+#profile-img {
     margin: 0 auto 1.3em;
     width: 140px;
     height: 140px;
     overflow: hidden;
     border-radius: 100%;
     will-change: border-radius;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
-#profile, #profile img {
+#profile-img, #profile-img img {
     transition: .5s;
 }
 
-#profile img {
+#profile-img img {
     filter: grayscale(100%);
     will-change: transform;
 }
 
-#profile:hover {
+#profile-img:hover {
     border-radius: 25%;
 }
 
-#profile:hover img {
+#profile-img:hover img {
     filter: none;
     transform: scale(1.2) translate(2px);
 }
