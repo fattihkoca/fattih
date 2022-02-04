@@ -102,14 +102,13 @@ let url = "data.json",
         id("posts").setAttribute(toggle, bool);
     },
     loadCurator = function () {
-        if (curatorLoaded)
-        {
+        if (curatorLoaded) {
             var curatorFeedField = window.document.querySelector('.crt-feed');
 
-            if(curatorFeedField) {
+            if (curatorFeedField) {
                 curatorFeedField.setAttribute('style', 'display:none');
 
-                setTimeout(function() {
+                setTimeout(function () {
                     curatorFeedField.setAttribute('style', 'display:block');
                 }.bind(curatorFeedField), 200);
 
@@ -126,7 +125,7 @@ let url = "data.json",
             e = d.getElementsByTagName(s)[0];
             e.parentNode.insertBefore(i, e);
 
-            i.onload = function() {
+            i.onload = function () {
                 id("posts-provider").innerText = data.posts.title + " - " + data.posts.provider;
             };
         })();
